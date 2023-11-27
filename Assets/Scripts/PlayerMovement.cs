@@ -125,7 +125,7 @@ public class PlayerController : MonoBehaviour
                             slideVelocity;
             movePlayer.z += ((1f - hitNormal.y) * hitNormal.z) *
                             slideVelocity;
-            movePlayer.y += slopeForceDown;
+            movePlayer.y += slopeForceDown;       
         }
     }
 
