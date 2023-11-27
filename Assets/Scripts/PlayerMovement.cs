@@ -16,7 +16,9 @@ public class PlayerController : MonoBehaviour
     //Movimiento respecto a cámara
     public Camera mainCamera;
     private Vector3 camForward;
+
     private Vector3 camRight;
+
     // Movimiento jugador
     private Vector3 movePlayer;
 
@@ -37,16 +39,16 @@ public class PlayerController : MonoBehaviour
     public float jumpForce;
 
     // Animaciones
-  //  public Animator playerAnimatorController;
+    //  public Animator playerAnimatorController;
 
 
-    private bool yaEnPlataforma=false;
+    private bool yaEnPlataforma = false;
+
     void Start()
     {
         player = GetComponent<CharacterController>();
 
-    //    playerAnimatorController = GetComponent<Animator>();
-        
+        //    playerAnimatorController = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -59,13 +61,14 @@ public class PlayerController : MonoBehaviour
     {
         horizontalMove = Input.GetAxis("Horizontal");
         verticalMove = Input.GetAxis("Vertical");
-        playerInput = new Vector3(horizontalMove,0,verticalMove);
-        playerInput =Vector3.ClampMagnitude(playerInput, 1);
+        playerInput = new Vector3(horizontalMove, 0, verticalMove);
+        playerInput = Vector3.ClampMagnitude(playerInput, 1);
+
         // player.Move(playerInput*playerSpeed*Time.deltaTime);
 
 
-     //   playerAnimatorController.SetFloat("PlayerWalkVelocity", 
-       //     playerInput.magnitude * playerSpeed);
+        //   playerAnimatorController.SetFloat("PlayerWalkVelocity", 
+        //     playerInput.magnitude * playerSpeed);
 
         //Movimiento respecto a cámara
         camDirection();
@@ -82,12 +85,12 @@ public class PlayerController : MonoBehaviour
 
     private void Saltar()
     {
-       if (Input.GetButtonDown("Jump") && player.isGrounded)
+        if (Input.GetButtonDown("Jump") && player.isGrounded)
         {
             fallVelocity = jumpForce;
             movePlayer.y = fallVelocity;
 
-    //        playerAnimatorController.SetTrigger("PlayerJump");
+            //        playerAnimatorController.SetTrigger("PlayerJump");
         }
     }
 
@@ -103,27 +106,26 @@ public class PlayerController : MonoBehaviour
             fallVelocity -= gravity * Time.deltaTime;
             movePlayer.y = fallVelocity;
 
-     //       playerAnimatorController.SetFloat("PlayerVerticalVelocity", player.velocity.y);
+            //       playerAnimatorController.SetFloat("PlayerVerticalVelocity", player.velocity.y);
 //
         }
 
-   //     playerAnimatorController.SetBool("IsGrounded",player.isGrounded);
+        //     playerAnimatorController.SetBool("IsGrounded",player.isGrounded);
 
-  //      SlideDown();
+        SlideDown();
     }
 
     private void SlideDown()
     {
         isOnSlope = Vector3.Angle(Vector3.up, hitNormal) >=
-            player.slopeLimit;
+                    player.slopeLimit; // ángulo mayor
         if (isOnSlope)
         {
             movePlayer.x += ((1f - hitNormal.y) * hitNormal.x) *
-                slideVelocity;
+                            slideVelocity;
             movePlayer.z += ((1f - hitNormal.y) * hitNormal.z) *
-                slideVelocity;
+                            slideVelocity;
             movePlayer.y += slopeForceDown;
-
         }
     }
 
@@ -135,36 +137,33 @@ public class PlayerController : MonoBehaviour
         camForward.y = 0;
         camRight.y = 0;
 
-        camForward= camForward.normalized;
+        camForward = camForward.normalized;
         camRight = camRight.normalized;
     }
 
-/*
-    private void OnControllerColliderHit(ControllerColliderHit hit)
+
+    private void OnControllerColliderHit(ControllerColliderHit hit) //controla colision
     {
         hitNormal = hit.normal;
 
-        var scriptMover2 = FindObjectOfType<Mover2>();
+        // var scriptMover2 = FindObjectOfType<Mover2>();
         Debug.Log(hit.gameObject.tag);
         // Comprueba si la colisión es con un objeto con un tag específico
         if (hit.gameObject.tag == "Plataforma" && !yaEnPlataforma)
         {
-            scriptMover2.controlador = player;
-            scriptMover2.enPlataforma = true;
+            //   scriptMover2.controlador = player;
+            // scriptMover2.enPlataforma = true;
             // Haz algo cuando colisiona con el objeto
             Debug.Log("Colisión detectada con MiObjetoTag");
-            yaEnPlataforma= true;
+            yaEnPlataforma = true;
         }
         else
         {
             if (hit.gameObject.tag != "Plataforma")
             {
-                scriptMover2.enPlataforma = false;
+                //   scriptMover2.enPlataforma = false;
                 yaEnPlataforma = false;
             }
-            
         }
     }
-*/
-   
 }
