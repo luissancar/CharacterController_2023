@@ -129,8 +129,8 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void camDirection()
-    {
+    private void camDirection()   
+///    {
         camForward = mainCamera.transform.forward;
         camRight = mainCamera.transform.right;
 
