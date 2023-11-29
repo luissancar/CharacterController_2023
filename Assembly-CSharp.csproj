@@ -48,10 +48,13 @@
      <Compile Include="Assets\Scripts\Camera\ThirdPersonCamera.cs" />
      <Compile Include="Assets\Scripts\PickObject\PickUpObjects.cs" />
      <Compile Include="Assets\Scripts\PickObject\PickableObject.cs" />
+     <Compile Include="Assets\Scripts\Plataforma\PlatformController.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Player\pushRigidBody.cs" />
+     <Compile Include="Assets\Scripts\Plataforma\MoveWithPlantfom.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Scripts" />
+     <Folder Include="Assets\Scripts\Plataforma" />
      <Folder Include="Assets\Scripts\PickObject" />
      <Folder Include="Assets\Scripts\Player" />
      <Folder Include="Assets\Scripts\Camera" />
