@@ -83,8 +83,10 @@
      <Folder Include="Assets\3D Game Kit - Character Pack\Characters\Ellen\Prefabs" />
      <None Include="Assets\3D Game Kit - Character Pack\Shaders\EnergyCore.shader" />
      <None Include="Assets\3D Game Kit - Character Pack\Shaders\SculptedHair.shader" />
+     <Folder Include="Assets\Animations 1" />
      <Folder Include="Assets\3D Game Kit - Character Pack\Characters\Ellen\Weapons\Textures\Pistol" />
      <None Include="Assets\3D Game Kit - Character Pack\Shaders\ToonSkin.shader" />
+     <Folder Include="Assets\Animations 1\Ellen" />
      <Folder Include="Assets\Materials" />
      <Folder Include="Assets\3D Game Kit - Character Pack\Characters\Ellen\Materials" />
      <Folder Include="Assets\3D Game Kit - Character Pack\Characters\Spitter\Prefabs" />

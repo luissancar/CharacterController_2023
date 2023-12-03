@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
 // se asigna a player
 
 public class PlayerController : MonoBehaviour
@@ -40,7 +41,7 @@ public class PlayerController : MonoBehaviour
     public float jumpForce;
 
     // Animaciones
-    //  public Animator playerAnimatorController;
+    public Animator playerAnimatorController;
 
 
     private bool yaEnPlataforma = false;
@@ -48,8 +49,8 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         player = GetComponent<CharacterController>();
-
-        //    playerAnimatorController = GetComponent<Animator>();
+        // Animaciones
+        playerAnimatorController = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -67,9 +68,9 @@ public class PlayerController : MonoBehaviour
 
         // player.Move(playerInput*playerSpeed*Time.deltaTime);
 
-
-        //   playerAnimatorController.SetFloat("PlayerWalkVelocity", 
-        //     playerInput.magnitude * playerSpeed);
+        // Animaciones
+        playerAnimatorController.SetFloat("PlayerWalkVelocity",
+            playerInput.magnitude * playerSpeed);
 
         //Movimiento respecto a cámara
         camDirection();
@@ -90,8 +91,8 @@ public class PlayerController : MonoBehaviour
         {
             fallVelocity = jumpForce;
             movePlayer.y = fallVelocity;
-
-            //        playerAnimatorController.SetTrigger("PlayerJump");
+            // Animaciones
+            playerAnimatorController.SetTrigger("PlayerJump");
         }
     }
 
@@ -106,12 +107,13 @@ public class PlayerController : MonoBehaviour
         {
             fallVelocity -= gravity * Time.deltaTime;
             movePlayer.y = fallVelocity;
-
-            //       playerAnimatorController.SetFloat("PlayerVerticalVelocity", player.velocity.y);
+            // Animaciones
+            playerAnimatorController.SetFloat("PlayerVerticalVelocity", player.velocity.y);
 //
         }
 
-        //     playerAnimatorController.SetBool("IsGrounded",player.isGrounded);
+        // Animaciones
+        playerAnimatorController.SetBool("IsGrounded", player.isGrounded);
 
         SlideDown();
     }
@@ -126,11 +128,11 @@ public class PlayerController : MonoBehaviour
                             slideVelocity;
             movePlayer.z += ((1f - hitNormal.y) * hitNormal.z) *
                             slideVelocity;
-            movePlayer.y += slopeForceDown;       
+            movePlayer.y += slopeForceDown;
         }
     }
 
-    private void camDirection()   
+    private void camDirection()
     {
         camForward = mainCamera.transform.forward;
         camRight = mainCamera.transform.right;
@@ -165,5 +167,11 @@ public class PlayerController : MonoBehaviour
                 yaEnPlataforma = false;
             }
         }
+    }
+
+
+    private void OnAnimatorMove()
+    {
+        
     }
 }

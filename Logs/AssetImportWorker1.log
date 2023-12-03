@@ -15,7 +15,7 @@ C:/Users/luissancar/Dropbox/nosferatu/cursoespecializacion/unityproject2024/3d_2
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-49963
+50725
 Successfully changed project path to: C:/Users/luissancar/Dropbox/nosferatu/cursoespecializacion/unityproject2024/3d_2023
 C:/Users/luissancar/Dropbox/nosferatu/cursoespecializacion/unityproject2024/3d_2023
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/luissancar/Dropbox/nosferatu/cursoespecializacion/unityproject2024/3d_2
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2452] Host "[IP] 192.168.1.53 [Port] 0 [Flags] 2 [Guid] 900145871 [EditorId] 900145871 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4IKPEE9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [2356] Host "[IP] 192.168.1.53 [Port] 0 [Flags] 2 [Guid] 3042454227 [EditorId] 3042454227 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4IKPEE9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [2452] Host "[IP] 192.168.1.53 [Port] 0 [Flags] 2 [Guid] 900145871 [EditorId] 900145871 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4IKPEE9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [2356] Host "[IP] 192.168.1.53 [Port] 0 [Flags] 2 [Guid] 3042454227 [EditorId] 3042454227 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4IKPEE9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
-Refreshing native plugins compatible for Editor in 3984.10 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 362.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.11f1 (d00248457e15)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56612
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56776
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.168377 seconds.
-- Loaded All Assemblies, in 24.510 seconds
+Registered in 0.040740 seconds.
+- Loaded All Assemblies, in  1.804 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.362 seconds
-Domain Reload Profiling: 24861ms
-	BeginReloadAssembly (19277ms)
+- Finished resetting the current domain, in  1.284 seconds
+Domain Reload Profiling: 3068ms
+	BeginReloadAssembly (571ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (2647ms)
-	RebuildNativeTypeToScriptingClass (177ms)
-	initialDomainReloadingComplete (542ms)
-	LoadAllAssembliesAndSetupDomain (1855ms)
-		LoadAssemblies (19178ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (149ms)
+	RebuildNativeTypeToScriptingClass (54ms)
+	initialDomainReloadingComplete (264ms)
+	LoadAllAssembliesAndSetupDomain (746ms)
+		LoadAssemblies (558ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1846ms)
-			TypeCache.Refresh (1844ms)
-				TypeCache.ScanAssembly (1482ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (362ms)
+		AnalyzeDomain (737ms)
+			TypeCache.Refresh (725ms)
+				TypeCache.ScanAssembly (667ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1284ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (279ms)
+		SetupLoadedEditorAssemblies (988ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (18ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (56ms)
+			SetLoadedEditorAssemblies (45ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (185ms)
-			ProcessInitializeOnLoadMethodAttributes (64ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (626ms)
+			ProcessInitializeOnLoadMethodAttributes (254ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,55 +115,55 @@ Domain Reload Profiling: 24861ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in 20.300 seconds
-Refreshing native plugins compatible for Editor in 156.65 ms, found 3 plugins.
+- Loaded All Assemblies, in  3.235 seconds
+Refreshing native plugins compatible for Editor in 29.47 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in 11.405 seconds
-Domain Reload Profiling: 31683ms
-	BeginReloadAssembly (1059ms)
+- Finished resetting the current domain, in 37.885 seconds
+Domain Reload Profiling: 41085ms
+	BeginReloadAssembly (743ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
+		DisableScriptedObjects (38ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (2ms)
-		CreateAndSetChildDomain (94ms)
-	RebuildCommonClasses (223ms)
-	RebuildNativeTypeToScriptingClass (126ms)
-	initialDomainReloadingComplete (396ms)
-	LoadAllAssembliesAndSetupDomain (18471ms)
-		LoadAssemblies (10353ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (83ms)
+	RebuildCommonClasses (155ms)
+	RebuildNativeTypeToScriptingClass (36ms)
+	initialDomainReloadingComplete (231ms)
+	LoadAllAssembliesAndSetupDomain (2035ms)
+		LoadAssemblies (1511ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (8740ms)
-			TypeCache.Refresh (8342ms)
-				TypeCache.ScanAssembly (6996ms)
-			ScanForSourceGeneratedMonoScriptInfo (340ms)
-			ResolveRequiredComponents (49ms)
-	FinalizeReload (11409ms)
+		AnalyzeDomain (954ms)
+			TypeCache.Refresh (797ms)
+				TypeCache.ScanAssembly (712ms)
+			ScanForSourceGeneratedMonoScriptInfo (118ms)
+			ResolveRequiredComponents (35ms)
+	FinalizeReload (37887ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (5138ms)
+		SetupLoadedEditorAssemblies (31584ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (35ms)
-			SetLoadedEditorAssemblies (10ms)
+			InitializePlatformSupportModulesInManaged (49ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3245ms)
-			ProcessInitializeOnLoadAttributes (1645ms)
-			ProcessInitializeOnLoadMethodAttributes (115ms)
-			AfterProcessingInitializeOnLoad (88ms)
-			EditorAssembliesLoaded (1ms)
+			BeforeProcessingInitializeOnLoad (260ms)
+			ProcessInitializeOnLoadAttributes (24023ms)
+			ProcessInitializeOnLoadMethodAttributes (2084ms)
+			AfterProcessingInitializeOnLoad (5162ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (68ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.20 seconds
-Refreshing native plugins compatible for Editor in 11.26 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 3.03 seconds
+Refreshing native plugins compatible for Editor in 4.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3259 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 45 unused Assets / (130.3 KB). Loaded Objects now: 3720.
-Memory consumption went from 129.3 MB to 129.2 MB.
-Total: 23.259900 ms (FindLiveObjects: 2.163000 ms CreateObjectMapping: 2.812900 ms MarkObjects: 18.007300 ms  DeleteObjects: 0.275200 ms)
+Unloading 45 unused Assets / (130.4 KB). Loaded Objects now: 3721.
+Memory consumption went from 129.4 MB to 129.3 MB.
+Total: 9.358300 ms (FindLiveObjects: 0.473400 ms CreateObjectMapping: 0.384000 ms MarkObjects: 8.321700 ms  DeleteObjects: 0.177900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -180,286 +180,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 854.579133 seconds.
-  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenHitFrontRight.fbx
-  artifactKey: Guid(404644dc800da814b941c3e7c306379d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenHitFrontRight.fbx using Guid(404644dc800da814b941c3e7c306379d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b95f92b16cde1858f40b0f5c8f8a89c3') in 0.962373 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 223
-========================================================================
-Received Import Request.
-  Time since last request: 0.001868 seconds.
-  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenQuickTurnLeft.fbx
-  artifactKey: Guid(a9d04fff68c607a4e88339bdff08268e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenQuickTurnLeft.fbx using Guid(a9d04fff68c607a4e88339bdff08268e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e2503226e23947fc34bca1d630f19e') in 0.397222 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 223
-========================================================================
-Received Import Request.
-  Time since last request: 0.000615 seconds.
-  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenRunBackward.fbx
-  artifactKey: Guid(fc7d28091fde6ea49a66fed092cff1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenRunBackward.fbx using Guid(fc7d28091fde6ea49a66fed092cff1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4039013565176bb917382c44207a6a88') in 0.154722 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 227
-========================================================================
-Received Import Request.
-  Time since last request: 0.000515 seconds.
-  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenHitFront.fbx
-  artifactKey: Guid(62b2a28a812b9b146916a9cd1a84f0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenHitFront.fbx using Guid(62b2a28a812b9b146916a9cd1a84f0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86cc92d3d1d7514924f78a8751faf544') in 0.203673 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 223
-========================================================================
-Received Import Request.
-  Time since last request: 0.036435 seconds.
-  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenTurnOnSpotRight180.fbx
-  artifactKey: Guid(e1cce0de453816e4282371b40dc4f5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenTurnOnSpotRight180.fbx using Guid(e1cce0de453816e4282371b40dc4f5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e11e5f102c5dc96d4176730943748596') in 0.203879 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 223
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenRunForwardLanding.fbx
-  artifactKey: Guid(69d6fb34dcfd40d47b53a45b6666faa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenRunForwardLanding.fbx using Guid(69d6fb34dcfd40d47b53a45b6666faa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93bcbaa522da9d8fdb6d910831e1a391') in 0.085784 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 223
-========================================================================
-Received Import Request.
-  Time since last request: 0.000803 seconds.
-  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenTurnOnSpotRight135.fbx
-  artifactKey: Guid(c5164fe4906b93a41944c80c94a7cdb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenTurnOnSpotRight135.fbx using Guid(c5164fe4906b93a41944c80c94a7cdb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cdaa8caf0361e650f9aca56cfeff8f0') in 0.091222 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 223
-========================================================================
-Received Import Request.
-  Time since last request: 0.012703 seconds.
-  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenDeath.fbx
-  artifactKey: Guid(75c0b8ca7a51b3544a4af8381af8db0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenDeath.fbx using Guid(75c0b8ca7a51b3544a4af8381af8db0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd284eb97dd4015c277371013d9e79764') in 0.148204 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 223
-========================================================================
-Received Import Request.
-  Time since last request: 0.011241 seconds.
-  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenCombo3.fbx
-  artifactKey: Guid(d0d401bb3fc68574296f7ff69e81546c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenCombo3.fbx using Guid(d0d401bb3fc68574296f7ff69e81546c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9619d154b4422e7216aae3b22a96dbec') in 0.092045 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 223
-========================================================================
-Received Import Request.
-  Time since last request: 0.000581 seconds.
-  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenHitLeft.fbx
-  artifactKey: Guid(e9ceeb0bdca44b94a8aaefe78d7107cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenHitLeft.fbx using Guid(e9ceeb0bdca44b94a8aaefe78d7107cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2765ead74092e548296bc57941d1daa') in 0.079686 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 223
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenTurnOnSpotRight45.fbx
-  artifactKey: Guid(b005565d63cd1a943b59195c8231f995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenTurnOnSpotRight45.fbx using Guid(b005565d63cd1a943b59195c8231f995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b1496e3b468199f30aceb0c950676db') in 0.084560 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 223
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenRandomIdle3.fbx
-  artifactKey: Guid(6bddc2fb042e88f4190b861b198db1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenRandomIdle3.fbx using Guid(6bddc2fb042e88f4190b861b198db1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc6271c683bc13e23643dd37b9574a5c') in 0.182457 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 223
-========================================================================
-Received Import Request.
-  Time since last request: 0.011056 seconds.
-  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenStationaryToTurn180LeftWalk.fbx
-  artifactKey: Guid(888c68e83ca1a1f4fbcef4fb038a3498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenStationaryToTurn180LeftWalk.fbx using Guid(888c68e83ca1a1f4fbcef4fb038a3498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '459665f59824735541ccd36b279c5277') in 0.134049 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 223
-========================================================================
-Received Import Request.
-  Time since last request: 0.012746 seconds.
-  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenStrafeWalkBackward.fbx
-  artifactKey: Guid(72ccc97c139729742bbbdf4ebf0a7265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenStrafeWalkBackward.fbx using Guid(72ccc97c139729742bbbdf4ebf0a7265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b928f2e4170714379046f9497a103864') in 0.140897 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 223
-========================================================================
-Received Import Request.
-  Time since last request: 0.013234 seconds.
-  path: Assets/3D Game Kit - Character Pack/Characters
-  artifactKey: Guid(0118097ded8dbb741af77bed6b8ca050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Character Pack/Characters using Guid(0118097ded8dbb741af77bed6b8ca050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f096bb84dfecda9bb0f8a428d615ca14') in 0.004560 seconds
+  Time since last request: 4175.033979 seconds.
+  path: Assets/Scripts/Player/PlayerMovement.cs
+  artifactKey: Guid(9b3630f17e4609443bbbd78701ef74ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/PlayerMovement.cs using Guid(9b3630f17e4609443bbbd78701ef74ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24c76925a2182045716dd6f236e8de5e') in 0.007709 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.007018 seconds.
-  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenTurnOnSpotLeft180.fbx
-  artifactKey: Guid(faa7022c83412e84faffe7b8e9f965de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenTurnOnSpotLeft180.fbx using Guid(faa7022c83412e84faffe7b8e9f965de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '511fed575a8af824965e30c3e7ee44c1') in 0.167152 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 223
-========================================================================
-Received Import Request.
-  Time since last request: 0.011418 seconds.
-  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenHitFrontLeft.fbx
-  artifactKey: Guid(b7e13748b64e49b438b795a58809535e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenHitFrontLeft.fbx using Guid(b7e13748b64e49b438b795a58809535e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe46f5886bef8dd1fbe5e1e2a4b8acc') in 0.078993 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 223
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenStationaryToTurn90LeftWalk.fbx
-  artifactKey: Guid(634a692c84f454f4daf76eef5f14d68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenStationaryToTurn90LeftWalk.fbx using Guid(634a692c84f454f4daf76eef5f14d68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9938cf699e58ddc657fd5ecd65887e0f') in 0.072935 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 223
-========================================================================
-Received Import Request.
-  Time since last request: 0.016503 seconds.
-  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenTurnOnSpotLeft45.fbx
-  artifactKey: Guid(effcf99bf27527d4bb60e6ea50c792e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenTurnOnSpotLeft45.fbx using Guid(effcf99bf27527d4bb60e6ea50c792e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a70e13c2a722b24c8a51b437cbbbd7ff') in 0.182525 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 223
-========================================================================
-Received Import Request.
-  Time since last request: 0.002945 seconds.
-  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenWalkBackward.fbx
-  artifactKey: Guid(899aeaa13b49d6045ae7c2d4420eef79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenWalkBackward.fbx using Guid(899aeaa13b49d6045ae7c2d4420eef79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f7976b68318da54ce75e00d9756cfd') in 0.088716 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 227
-========================================================================
-Received Import Request.
-  Time since last request: 0.004379 seconds.
-  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenHitBack.fbx
-  artifactKey: Guid(ef55d1093a664e447940f6fade733a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenHitBack.fbx using Guid(ef55d1093a664e447940f6fade733a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e305f8b8e6f009dca9bc53dfb8d40442') in 0.114657 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 223
-========================================================================
-Received Import Request.
-  Time since last request: 0.000387 seconds.
-  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenHitBackLeft.fbx
-  artifactKey: Guid(d23b5a928bc7a32438c1c802c144007f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenHitBackLeft.fbx using Guid(d23b5a928bc7a32438c1c802c144007f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a4164d2551e68283e97b3139cca7c24') in 0.130412 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 223
-========================================================================
-Received Import Request.
-  Time since last request: 0.003783 seconds.
-  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenIdleLandFast.fbx
-  artifactKey: Guid(e6a235e8d3cc58747881167cd3742502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenIdleLandFast.fbx using Guid(e6a235e8d3cc58747881167cd3742502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e81997f782caf615b2fa6248fd5bd0c') in 0.084482 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 219
-========================================================================
-Received Import Request.
-  Time since last request: 0.005764 seconds.
-  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenStationaryToTurn180LeftRun.fbx
-  artifactKey: Guid(23e8fd4601309de4fbbd93bd4b6c1afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenStationaryToTurn180LeftRun.fbx using Guid(23e8fd4601309de4fbbd93bd4b6c1afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6460c20fe9228658391e82a1b18b15') in 0.063424 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 223
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenCombo1.fbx
-  artifactKey: Guid(3aeb280aa07caa148891a47a136fcee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenCombo1.fbx using Guid(3aeb280aa07caa148891a47a136fcee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6033c758eefe6ee3bd07213adb094a5a') in 0.079096 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 223
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenRandomIdle1.fbx
-  artifactKey: Guid(e7f8d149f8d7e5242a52e530f0782e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenRandomIdle1.fbx using Guid(e7f8d149f8d7e5242a52e530f0782e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6cc85df5324c14eb8678a2e84d6638f') in 0.134298 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 223
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenSpawn.fbx
-  artifactKey: Guid(118c1440644eccb46ba5d8a2657a9556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenSpawn.fbx using Guid(118c1440644eccb46ba5d8a2657a9556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bf8c97707284c1d489ca0d47b985091') in 0.135246 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 223
-========================================================================
-Received Import Request.
-  Time since last request: 0.000587 seconds.
-  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenRunForwardLandingFast.fbx
-  artifactKey: Guid(74640275d27b66a4fa863f592bb4a792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenRunForwardLandingFast.fbx using Guid(74640275d27b66a4fa863f592bb4a792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97523fb33dbdfb607325459c3f430451') in 0.124000 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 223
-========================================================================
-Received Import Request.
-  Time since last request: 0.000739 seconds.
-  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenStationaryToTurn90RightRun.fbx
-  artifactKey: Guid(b7af0645675cb8f46b8668fdd8c1c17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenStationaryToTurn90RightRun.fbx using Guid(b7af0645675cb8f46b8668fdd8c1c17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19534e2c2d213b784e0e064992cc7c73') in 0.075229 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 223
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenStrafe90RightRunBackward.fbx
-  artifactKey: Guid(81c1dcd989841b24c84639b687b6acdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenStrafe90RightRunBackward.fbx using Guid(81c1dcd989841b24c84639b687b6acdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cab678156f85967a28e3b3a14ed4fe5') in 0.084117 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 223
-========================================================================
-Received Import Request.
-  Time since last request: 0.006809 seconds.
-  path: Assets/3D Game Kit - Character Pack/Characters/Spitter/Prefabs
-  artifactKey: Guid(9f065a97b2d978f4ca6974d41441e070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Character Pack/Characters/Spitter/Prefabs using Guid(9f065a97b2d978f4ca6974d41441e070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d44a22a269db24e5b0e1f243eae69a0') in 0.002353 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenGunTakeOut.fbx
-  artifactKey: Guid(e3a5ef9c462aa6148905797ad21cea01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenGunTakeOut.fbx using Guid(e3a5ef9c462aa6148905797ad21cea01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec2930d4e21ea9e3f3e896b9739bc5a7') in 0.100667 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 223
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenHitRight.fbx
-  artifactKey: Guid(354357235aca8884584fd41a973a3882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenHitRight.fbx using Guid(354357235aca8884584fd41a973a3882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd45a08fbf0b4b015f1c25d086a7196a0') in 0.095827 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 223
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/3D Game Kit - Character Pack
-  artifactKey: Guid(771c2e556e66e9743adf5158d52fe9db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Character Pack using Guid(771c2e556e66e9743adf5158d52fe9db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c34be599026428cdeb6476ca39a999d') in 0.000839 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenTurnOnSpotLeft90.fbx
-  artifactKey: Guid(6e36c05719123cf4d8f2981e1ce637ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenTurnOnSpotLeft90.fbx using Guid(6e36c05719123cf4d8f2981e1ce637ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c97d64901cb607807d7d1764db88638d') in 0.065344 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 223
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
