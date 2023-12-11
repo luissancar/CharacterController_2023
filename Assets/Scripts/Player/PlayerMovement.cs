@@ -108,7 +108,8 @@ public class PlayerController : MonoBehaviour
             fallVelocity -= gravity * Time.deltaTime;
             movePlayer.y = fallVelocity;
             // Animaciones
-            playerAnimatorController.SetFloat("PlayerVerticalVelocity", player.velocity.y);
+            playerAnimatorController.SetFloat("PlayerVerticalVelocity",
+                player.velocity.y);
 //
         }
 

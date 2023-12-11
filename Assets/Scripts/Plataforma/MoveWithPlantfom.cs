@@ -16,8 +16,7 @@ public class MoveWithPlantfom : MonoBehaviour
     Quaternion actualRot;
     Quaternion lastRot;
 
-    
-    
+
     //Ellen
     public float factorDivision = 4.2f;
     public Vector3 originOffset;
@@ -34,10 +33,14 @@ public class MoveWithPlantfom : MonoBehaviour
         {
             // Línea imaginaría desde un punto a otro
             RaycastHit hit;
-            
-            // Sin ellen no se usa originOffset
+
+            // Sin ellen 
+            //   if (Physics.SphereCast(transform.position ,
+            //         player.height / factorDivision, -transform.up, out hit)
+            //  )
             if (Physics.SphereCast(transform.position + originOffset,
-                    player.radius / factorDivision, -transform.up, out hit)
+                    player.radius / factorDivision,
+                    -transform.up, out hit)
                )
             {
                 GameObject groundedIn = hit.collider.gameObject;
@@ -50,9 +53,11 @@ public class MoveWithPlantfom : MonoBehaviour
 
                 /// 
                 // el suelo se mueve y seguimos en la plataforma
-                if (groundPosition != lastGronudPosition && groundName == lastGroundName)
+                if (groundPosition != lastGronudPosition && 
+                    groundName == lastGroundName)
                 {
-                    this.transform.position += groundPosition - lastGronudPosition;
+                    this.transform.position 
+                        += groundPosition - lastGronudPosition;
 
                     /////
                     player.enabled = false;
@@ -64,8 +69,10 @@ public class MoveWithPlantfom : MonoBehaviour
                 ///Rot
                 if (actualRot != lastRot && groundName == lastGroundName)
                 {
-                    var newRot = this.transform.rotation * (actualRot.eulerAngles - lastRot.eulerAngles);
-                    this.transform.RotateAround(groundedIn.transform.position, Vector3.up, newRot.y);
+                    var newRot = this.transform.rotation *
+                                 (actualRot.eulerAngles - lastRot.eulerAngles);
+                    this.transform.RotateAround(groundedIn.transform.position,
+                        Vector3.up, newRot.y);
                 }
 
                 lastRot = actualRot;
@@ -100,8 +107,7 @@ public class MoveWithPlantfom : MonoBehaviour
     {
         // raycast más grande
         player = this.GetComponent<CharacterController>();
-        Gizmos.DrawWireSphere(transform.position+originOffset, player.radius / factorDivision);
+        Gizmos.DrawWireSphere(transform.position + originOffset, 
+            player.radius / factorDivision);
     }
-
-
 }

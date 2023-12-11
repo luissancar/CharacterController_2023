@@ -46,18 +46,28 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Camera\ThirdPersonCamera.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerVidaDano.cs" />
+     <Compile Include="Assets\Scripts\Plataforma\PlatformController.cs" />
+     <Compile Include="Assets\Scripts\Player\pushRigidBody.cs" />
+     <Compile Include="Assets\Scripts\Player\HacerDano.cs" />
      <Compile Include="Assets\Scripts\PickObject\PickUpObjects.cs" />
      <Compile Include="Assets\Scripts\PickObject\PickableObject.cs" />
-     <Compile Include="Assets\Scripts\Plataforma\PlatformController.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
-     <Compile Include="Assets\Scripts\Player\pushRigidBody.cs" />
      <Compile Include="Assets\Scripts\Plataforma\MoveWithPlantfom.cs" />
      <Folder Include="Assets" />
+     <Folder Include="Assets\Mini Nature Pack\Models\Tree 3_Textures" />
      <None Include="Assets\3D Game Kit - Character Pack\Shaders\Alien.shader" />
+     <Folder Include="Assets\Mini Nature Pack\Models\Tree 7_Textures" />
      <Folder Include="Assets\3D Game Kit - Character Pack\Characters\Spitter" />
+     <Folder Include="Assets\Mini Nature Pack\Models\Tree 9_Textures" />
      <Folder Include="Assets\3D Game Kit - Character Pack\Characters\Ellen\Weapons\Textures\Staff" />
+     <Folder Include="Assets\Mini Nature Pack\Models\Tree 2_Textures" />
+     <Folder Include="Assets\Mini Nature Pack\Models\Tree 5_Textures" />
      <Folder Include="Assets\3D Game Kit - Character Pack\Characters" />
      <Folder Include="Assets\3D Game Kit - Character Pack\Characters\Spitter\Textures" />
+     <Folder Include="Assets\Mini Nature Pack\Models\Bush3_Textures" />
+     <Folder Include="Assets\TerrainDemoScene_URP\Scenes" />
+     <Folder Include="Assets\Mini Nature Pack\Models\Bush2_Textures" />
      <Folder Include="Assets\3D Game Kit - Character Pack\Characters\Ellen" />
      <Folder Include="Assets\Scripts" />
      <Folder Include="Assets\3D Game Kit - Character Pack\Characters\Ellen\Textures" />
@@ -66,29 +76,49 @@
      <Folder Include="Assets\3D Game Kit - Character Pack\Characters\Ellen\Models" />
      <Folder Include="Assets\Scripts\Plataforma" />
      <Folder Include="Assets\3D Game Kit - Character Pack\Characters\Ellen\Weapons\Materials" />
+     <Folder Include="Assets\Mini Nature Pack\Models\Tree 4_Textures" />
      <Folder Include="Assets\Scripts\PickObject" />
      <Folder Include="Assets\3D Game Kit - Character Pack\Characters\Ellen\AnimationClips" />
+     <Folder Include="Assets\modelospinchos" />
      <Folder Include="Assets\Scripts\Player" />
      <Folder Include="Assets\3D Game Kit - Character Pack\Characters\Spitter\Models" />
+     <Folder Include="Assets\Mini Nature Pack\Terrain" />
      <Folder Include="Assets\3D Game Kit - Character Pack\Characters\Spitter\AnimationClips" />
+     <Folder Include="Assets\Mini Nature Pack\Grass" />
+     <Folder Include="Assets\Mini Nature Pack\Documentation" />
+     <Folder Include="Assets\Mini Nature Pack\Textures" />
      <Folder Include="Assets\3D Game Kit - Character Pack" />
+     <Folder Include="Assets\Mini Nature Pack\Models" />
+     <Folder Include="Assets\Mini Nature Pack\Scenery Textures" />
      <Folder Include="Assets\3D Game Kit - Character Pack\Characters\Ellen\Weapons" />
      <Folder Include="Assets\3D Game Kit - Character Pack\Characters\Ellen\Weapons\Textures" />
      <None Include="Assets\3D Game Kit - Character Pack\Shaders\EyeBallsHD.shader" />
      <Folder Include="Assets\3D Game Kit - Character Pack\Characters\Spitter\Materials" />
+     <Folder Include="Assets\Mini Nature Pack\Demo" />
+     <Folder Include="Assets\Mini Nature Pack\Models\Bush1_Textures" />
      <None Include="Assets\3D Game Kit - Character Pack\Characters\Spitter\AnimationClips\animations.txt" />
+     <Folder Include="Assets\Mini Nature Pack\Models\Tree 1_Textures" />
      <Folder Include="Assets\Scripts\Camera" />
+     <Folder Include="Assets\Mini Nature Pack\Models\Tree 10_Textures" />
      <Folder Include="Assets\3D Game Kit - Character Pack\Shaders" />
+     <Folder Include="Assets\Mini Nature Pack\Models\Tree 8_Textures" />
+     <Folder Include="Assets\Mini Nature Pack" />
      <Folder Include="Assets\Scenes" />
      <Folder Include="Assets\3D Game Kit - Character Pack\Characters\Ellen\Prefabs" />
+     <Folder Include="Assets\Mini Nature Pack\Models\Tree 6_Textures" />
      <None Include="Assets\3D Game Kit - Character Pack\Shaders\EnergyCore.shader" />
+     <Folder Include="Assets\_TerrainAutoUpgrade" />
      <None Include="Assets\3D Game Kit - Character Pack\Shaders\SculptedHair.shader" />
+     <Folder Include="Assets\Mini Nature Pack\Materials" />
      <Folder Include="Assets\Animations 1" />
      <Folder Include="Assets\3D Game Kit - Character Pack\Characters\Ellen\Weapons\Textures\Pistol" />
+     <Folder Include="Assets\Mini Nature Pack\Models\Bush4_Textures" />
+     <Folder Include="Assets\TerrainDemoScene_URP" />
      <None Include="Assets\3D Game Kit - Character Pack\Shaders\ToonSkin.shader" />
      <Folder Include="Assets\Animations 1\Ellen" />
      <Folder Include="Assets\Materials" />
      <Folder Include="Assets\3D Game Kit - Character Pack\Characters\Ellen\Materials" />
+     <Folder Include="Assets\Mini Nature Pack\Models\Bush5_Textures" />
      <Folder Include="Assets\3D Game Kit - Character Pack\Characters\Spitter\Prefabs" />
      <None Include="Assets\3D Game Kit - Character Pack\Shaders\Dissolve.shader" />
      <Reference Include="UnityEngine">
@@ -712,38 +742,35 @@
      <Reference Include="System.Xml.Serialization">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.Timeline">
-     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEngine.UI">
-     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
      </Reference>
      <Reference Include="Unity.EditorCoroutines.Editor">
      <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+     <Reference Include="Unity.VisualEffectGraph.Runtime">
+     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Core.Runtime">
+     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TerrainTools.Editor">
+     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll</HintPath>
      </Reference>
      <Reference Include="com.unity.cinemachine.editor">
      <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+     <Reference Include="Unity.Burst.Editor">
+     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+     <Reference Include="Unity.Burst">
+     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
      </Reference>
      <Reference Include="Unity.PlasticSCM.Editor">
      <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.State.Editor">
-     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline.Editor">
      <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
@@ -751,20 +778,20 @@
      <Reference Include="Unity.VisualScripting.Shared.Editor">
      <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.TerrainTools">
+     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.TerrainTools.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.ShaderGraph.Editor">
+     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.VisualStudio.Editor">
      <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.TextMeshPro">
-     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+     <Reference Include="UnityEditor.UI">
+     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core">
      <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.TextMeshPro.Editor">
-     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.UI">
-     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core.Editor">
      <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
@@ -772,20 +799,80 @@
      <Reference Include="Unity.Rider.Editor">
      <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.State">
-     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+     <Reference Include="UnityEngine.UI">
+     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VSCode.Editor">
-     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+     <Reference Include="Unity.RenderPipelines.Core.Editor">
+     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Cinemachine">
-     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+     <Reference Include="Unity.VisualEffectGraph.Editor">
+     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.VisualEffectGraph.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow">
      <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow.Editor">
      <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Mathematics.Editor">
+     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Timeline">
+     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
+     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
+     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
+     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
+     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.State.Editor">
+     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="PPv2URPConverters">
+     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Mathematics">
+     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TextMeshPro">
+     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TextMeshPro.Editor">
+     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Searcher.Editor">
+     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.State">
+     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+     </Reference>
+     <Reference Include="Cinemachine">
+     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VSCode.Editor">
+     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Universal.Editor">
+     <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>

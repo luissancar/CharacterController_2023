@@ -28,7 +28,8 @@ public class PlatformController : MonoBehaviour
         {
            // StopCoroutine(WaitForMove(0));
             platafromRB.MovePosition(Vector3.MoveTowards
-            (platafromRB.position, platafromPositions[nextPosition].position,
+            (platafromRB.position, 
+                platafromPositions[nextPosition].position,
                 speed * Time.deltaTime));
         }
 
