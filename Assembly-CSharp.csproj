@@ -55,23 +55,32 @@
      <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Plataforma\MoveWithPlantfom.cs" />
      <Folder Include="Assets" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <Folder Include="Assets\Mini Nature Pack\Models\Tree 3_Textures" />
      <None Include="Assets\3D Game Kit - Character Pack\Shaders\Alien.shader" />
      <Folder Include="Assets\Mini Nature Pack\Models\Tree 7_Textures" />
      <Folder Include="Assets\3D Game Kit - Character Pack\Characters\Spitter" />
      <Folder Include="Assets\Mini Nature Pack\Models\Tree 9_Textures" />
      <Folder Include="Assets\3D Game Kit - Character Pack\Characters\Ellen\Weapons\Textures\Staff" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <Folder Include="Assets\Mini Nature Pack\Models\Tree 2_Textures" />
+     <Folder Include="Assets\TextMesh Pro\Sprites" />
      <Folder Include="Assets\Mini Nature Pack\Models\Tree 5_Textures" />
      <Folder Include="Assets\3D Game Kit - Character Pack\Characters" />
+     <Folder Include="Assets\TextMesh Pro\Resources\Sprite Assets" />
      <Folder Include="Assets\3D Game Kit - Character Pack\Characters\Spitter\Textures" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
      <Folder Include="Assets\Mini Nature Pack\Models\Bush3_Textures" />
      <Folder Include="Assets\TerrainDemoScene_URP\Scenes" />
      <Folder Include="Assets\Mini Nature Pack\Models\Bush2_Textures" />
      <Folder Include="Assets\3D Game Kit - Character Pack\Characters\Ellen" />
+     <Folder Include="Assets\TextMesh Pro\Resources\Fonts &amp; Materials" />
      <Folder Include="Assets\Scripts" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <Folder Include="Assets\3D Game Kit - Character Pack\Characters\Ellen\Textures" />
      <Folder Include="Assets\3D Game Kit - Character Pack\Characters\Ellen\Weapons\Models" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+     <Folder Include="Assets\TextMesh Pro\Resources" />
      <None Include="Assets\3D Game Kit - Character Pack\Shaders\EyeLash.shader" />
      <Folder Include="Assets\3D Game Kit - Character Pack\Characters\Ellen\Models" />
      <Folder Include="Assets\Scripts\Plataforma" />
@@ -79,9 +88,11 @@
      <Folder Include="Assets\Mini Nature Pack\Models\Tree 4_Textures" />
      <Folder Include="Assets\Scripts\PickObject" />
      <Folder Include="Assets\3D Game Kit - Character Pack\Characters\Ellen\AnimationClips" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <Folder Include="Assets\modelospinchos" />
      <Folder Include="Assets\Scripts\Player" />
      <Folder Include="Assets\3D Game Kit - Character Pack\Characters\Spitter\Models" />
+     <Folder Include="Assets\TextMesh Pro" />
      <Folder Include="Assets\Mini Nature Pack\Terrain" />
      <Folder Include="Assets\3D Game Kit - Character Pack\Characters\Spitter\AnimationClips" />
      <Folder Include="Assets\Mini Nature Pack\Grass" />
@@ -90,18 +101,30 @@
      <Folder Include="Assets\3D Game Kit - Character Pack" />
      <Folder Include="Assets\Mini Nature Pack\Models" />
      <Folder Include="Assets\Mini Nature Pack\Scenery Textures" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
      <Folder Include="Assets\3D Game Kit - Character Pack\Characters\Ellen\Weapons" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
      <Folder Include="Assets\3D Game Kit - Character Pack\Characters\Ellen\Weapons\Textures" />
      <None Include="Assets\3D Game Kit - Character Pack\Shaders\EyeBallsHD.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <Folder Include="Assets\3D Game Kit - Character Pack\Characters\Spitter\Materials" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
      <Folder Include="Assets\Mini Nature Pack\Demo" />
      <Folder Include="Assets\Mini Nature Pack\Models\Bush1_Textures" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+     <Folder Include="Assets\TextMesh Pro\Shaders" />
      <None Include="Assets\3D Game Kit - Character Pack\Characters\Spitter\AnimationClips\animations.txt" />
      <Folder Include="Assets\Mini Nature Pack\Models\Tree 1_Textures" />
      <Folder Include="Assets\Scripts\Camera" />
+     <Folder Include="Assets\TextMesh Pro\Resources\Style Sheets" />
      <Folder Include="Assets\Mini Nature Pack\Models\Tree 10_Textures" />
      <Folder Include="Assets\3D Game Kit - Character Pack\Shaders" />
+     <Folder Include="Assets\TextMesh Pro\Fonts" />
      <Folder Include="Assets\Mini Nature Pack\Models\Tree 8_Textures" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <Folder Include="Assets\Mini Nature Pack" />
      <Folder Include="Assets\Scenes" />
      <Folder Include="Assets\3D Game Kit - Character Pack\Characters\Ellen\Prefabs" />
@@ -109,17 +132,25 @@
      <None Include="Assets\3D Game Kit - Character Pack\Shaders\EnergyCore.shader" />
      <Folder Include="Assets\_TerrainAutoUpgrade" />
      <None Include="Assets\3D Game Kit - Character Pack\Shaders\SculptedHair.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
      <Folder Include="Assets\Mini Nature Pack\Materials" />
      <Folder Include="Assets\Animations 1" />
      <Folder Include="Assets\3D Game Kit - Character Pack\Characters\Ellen\Weapons\Textures\Pistol" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
      <Folder Include="Assets\Mini Nature Pack\Models\Bush4_Textures" />
      <Folder Include="Assets\TerrainDemoScene_URP" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
      <None Include="Assets\3D Game Kit - Character Pack\Shaders\ToonSkin.shader" />
      <Folder Include="Assets\Animations 1\Ellen" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <Folder Include="Assets\TextMesh Pro\Documentation" />
      <Folder Include="Assets\Materials" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
      <Folder Include="Assets\3D Game Kit - Character Pack\Characters\Ellen\Materials" />
      <Folder Include="Assets\Mini Nature Pack\Models\Bush5_Textures" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne.json" />
      <Folder Include="Assets\3D Game Kit - Character Pack\Characters\Spitter\Prefabs" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
      <None Include="Assets\3D Game Kit - Character Pack\Shaders\Dissolve.shader" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
@@ -375,6 +406,15 @@
      </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
      <HintPath>C:\Users\luissancar\Dropbox\nosferatu\cursoespecializacion\unityproject2024\3d_2023\Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Android.Types">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Android.Gradle">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Android.GradleProject">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.GradleProject.dll</HintPath>
      </Reference>
      <Reference Include="netstandard">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
